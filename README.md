@@ -13,6 +13,9 @@ Markovify(https://github.com/jsvine/markovify)
 
 3. In order too use this bot you have too have a text file, the large the text file the better. Read the Markovify documentation for more info on how too setup the text file. (I have a text file included in this repository that consist of copypastas from https://www.reddit.com/r/copypasta )
 
- #See the bot in action
+
+
+
+
 
 Too see the bot in action, visit this discord server:  https://discord.gg/f4eWqaU 
