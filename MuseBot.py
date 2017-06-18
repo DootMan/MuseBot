@@ -14,7 +14,7 @@ client = discord.Client() #connection stuff
 async def background_loop(): # start of loop de loop
     await client.wait_until_ready()
     while not client.is_closed:
-        channel = client.get_channel('286342556600762369')
+        channel = client.get_channel('CHANNEL_ID_HERE)
         try:
             messages = (text_model.make_sentence(tries=6, max_overlap_total=8, max_overlap_ratio=0.6, char_limit=140))
         except Exception:
@@ -26,5 +26,5 @@ async def background_loop(): # start of loop de loop
         await asyncio.sleep(20)
 
 client.loop.create_task(background_loop())
-client.run("MjY2NjkwNDY4MjI4NzU5NTU4.C5jcdw.WFfBTUmAY7UcrwKTwYFJ9_bFHjI")
+client.run("TOKEN_HERE")
 
