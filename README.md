@@ -11,5 +11,5 @@ Markovify(https://github.com/jsvine/markovify)
 
 2.Edit the channel ID, Token, and path too the text file too their correct values.
 
-3. In order too use this bot you have too have a text file, the large the text file the better. Read the Markovify documentation for more info on how too setup the text file.
+3. In order too use this bot you have too have a text file, the large the text file the better. Read the Markovify documentation for more info on how too setup the text file. (I have a text file included in this repository that consist of copypastas from https://www.reddit.com/r/copypasta )
 
