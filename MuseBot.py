@@ -5,7 +5,7 @@ import markovify
 
 time.sleep(1)
 
-with open("/root/sample.txt", encoding="utf8")as f:
+with open("path_too_text_file", encoding="utf8")as f:
     text = f.read()
 
 text_model=markovify.Text(text, state_size=2)
