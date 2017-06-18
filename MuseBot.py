@@ -14,7 +14,7 @@ client = discord.Client() #connection stuff
 async def background_loop(): # start of loop de loop
     await client.wait_until_ready()
     while not client.is_closed:
-        channel = client.get_channel('CHANNEL_ID_HERE)
+        channel = client.get_channel('CHANNEL_ID_HERE')
         try:
             messages = (text_model.make_sentence(tries=6, max_overlap_total=8, max_overlap_ratio=0.6, char_limit=140))
         except Exception:
