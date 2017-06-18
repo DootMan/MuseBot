@@ -18,7 +18,7 @@ async def background_loop(): # start of loop de loop
         try:
             messages = (text_model.make_sentence(tries=6, max_overlap_total=8, max_overlap_ratio=0.6, char_limit=140))
         except Exception:
-            continue #probably shouldnt do this lol
+            continue
         try:
             await client.send_message(channel, (messages))
         except Exception:
