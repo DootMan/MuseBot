@@ -1,2 +1,7 @@
 # MuseBot
-MuseBot is a dicsord bot written in python3 that randomly generates sentences using markov chains. 
+MuseBot is a discord bot written in python3 that randomly generates sentences using markov chains. 
+
+# Dependacys
+Discord.py(https://github.com/Rapptz/discord.py)
+Markovify(https://github.com/jsvine/markovify)
+
