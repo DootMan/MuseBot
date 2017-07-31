@@ -18,4 +18,3 @@ Markovify(https://github.com/jsvine/markovify)
 
 
 
-Too see the bot in action, visit this discord server:  https://discord.gg/f4eWqaU 
